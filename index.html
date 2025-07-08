@@ -1,7 +1,322 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  
+<!-- Start of the settings -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translational Research on Anxiety, Stress, and Trauma</title>
+    
+     <!-- Settings voor de hele pagina -->
+    <style>
+    
+        section {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        body {
+            font-family: Helvetica, sans-serif; /* Font main text */
+            margin: 0;  /* Changes the edges */
+            background-color: #f4f4f4;
+        }
+        
+         /* Settings voor het middenstuk */
+        main {
+            padding: 20px;
+            padding-bottom: 60px; /* Add padding to the bottom */
+        }
+        
+        
+         /* Settings voor de header */
+        header {
+            font-family: Tahoma, sans-serif; /* Font header */
+            background-color: #333; /* Background color */
+            color: #f0f0f0; /* Font color */
+            padding: 5rem; /* rem Unites ....changes mainly */
+            text-align: center;
+        }
+        
+         /* Settings voor de link balk  "a" is internal function */
+        navi_balk {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        a { /* "a" is internal function */
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        navi_balk a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        
+        /* Settings voor de footer  */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            bottom: 0;
+        }
+        
+        
+        
+        /* Seperate settings for smaller elements  */
+        button {
+          margin-top: auto;
+          font-family: Tahoma, sans-serif; /* Font header */
+          font-size: 20px;
+          background-color: #f4f4f4;
+          color: #333;
+
+        }
+        button:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+
+        /* Object classes */
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 50px;
+            margin: 20px 0;
+        }
+        
+        .project {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s; /* Hoe lang het duurt voor de hoover klaar is */
+            
+        }
+        
+        .project:hover {
+            transform: scale(1.25); /* When you hoover with your mouse over the box it increases */
+        }
+        
+        /* Project class */
+        .teams {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 50px;
+            margin: 20px 0;
+        }
+        
+        .team {
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.3s;
+            
+        }
+        
+        
+        .div_container_img {
+          position: relative;
+          height: 150px;
+          width: 200px;
+      }
+      
+        .div_container_img img {
+          max-height: 150px;  
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+
+
+}
+
+    </style> <!-- End of the style settings -->
+</head> <!-- End of the settings -->
+
+
+<!-- Start of the website -->
 <body>
-<h1>Translational Research on Anxiety, Stress, and Trauma</h1>
-<p>Welkom op deze website!</p>
+  
+<!-- Header -->
+    <header>
+        <h1>Translational Research on Anxiety, Stress, and Trauma</h1>
+        <p>Welkom bij de onderzoeksgroep Translational Research on Anxiety, Stress, and Trauma van de 
+        Universiteit Leiden. Wij doen onderzoek op het gebied van (neurobiologische) mechanismes van 
+        angst, stress en trauma exposure. We werken op dit moment vooral aan onderzoek dat wordt gefinancieerd
+        door het Ministerie van OCW, genaamd <i>“Improving translational research on trauma-related psychopathology 
+        by taking the clinic into the lab”</i> als onderdeel van de SSH sectorplannen.</p>
+    </header>
+    
+    
+<!-- Navigatiebalk -->
+    <navi_balk>
+        <a href="#home">Home</a>
+        <a href="#team">Team</a>
+        <a href="#onderzoek">Lowlands</a>
+        <a href="#publicaties">Publicaties</a>
+    </navi_balk>
+    
+<!-- Main part of the website --> 
+    <main>
+
+<!-- Sections - Projecten -->
+        
+        <section id="home">
+            <h2>Home</h2>
+            <div class="projects">
+                <div class="project">
+                    <p align="right">  01-juli-2025 </p>
+                    <h3>Griezelen op Lowlands Science</h3>
+                    <p>Op het Lowlands Science-terrein staat dit jaar een heus spookhuis. 
+                    Kom jij ook griezelen? Hersenwetenschappers Laura Nawijn en Linda de Voogd 
+                    hopen van wel, want hiermee draag je een steentje bij aan hun onderzoek 
+                    naar angststoornissen en -therapieën.</p>
+                    <img src="images/logo_new-scientist.png" width="100%" height="auto" alt="Logo">
+                    <p>  </p>
+
+                    <a href=https://www.newscientist.nl/blogs/griezelen-op-lowlands-science target="_blank"> 
+                    <button>Link</button></a>
+                    
+
+                </div>
+                <div class="project">
+                    <p align="right">  27-mei-2025 </p>
+                    <h3>Uitslag Kiem-loting 2025</h3>
+                    <p>Voor ons onderzoeksproject <i>"The Horror Paradox: why is it so much 
+                    fun to be scared? A science communication project“</i> hebben we een Kiem 
+                    beurs van 10000e gekregen. Hiermee kunnen we dit jaar langs 
+                    (wetenschaps)festivals om onderzoek te doen naar angst.</p>
+                    <img src="images/logo_kiemfoto.png" width="100%" height="auto" alt="Logo">
+                    <p>  </p>
+                    <a href=https://www.universiteitleiden.nl/nieuws/2025/05/uitslag-kiem-loting-2025 target="_blank"> 
+                    <button>Link</button></a>
+                </div>
+                <div class="project">
+                    <p align="right">  11-juni-2025 </p>
+                    <h3>We gaan naar Lowlands!</h3>
+                    <p>LL25 Science: Lowlands' Haunted House. Er gebeuren vreemde dingen in de 
+                    Flevoriaanse polder sinds het oude, verlaten laboratorium van de Universiteit 
+                    Leiden zich hier op mysterieuze wijze heeft gemanifesteerd. Heb jij de moed 
+                    om dit duistere doolhof te betreden? </p>
+                    <img src="images/logo_lowlands.png" width="100%" height="auto" alt="Logo">
+                    <p>  </p>
+                    <a href=https://lowlands.nl/ll-science/ll25-science-lowlands-haunted-house/ target="_blank"> 
+                    <button>Link</button></a>
+                </div>
+
+            </div>
+            <div class="projects">
+                <div class="project">
+                    <p align="right">  28-mei-2025 </p>
+                    <h3>Doe mee aan onderzoek!</h3>
+                    <p>Voor ons onderzoek "Bringing Clinical Knowledge to the Lab: a Qualitative Study 
+                    on Exposure Therapy for PTSD" zijn we opzoek naar clinici die ervaring hebben
+                    met het geven van exposure therapie.</p>
+                    <br></br>
+                    <br></br>
+                    <img src="images/logo_interview.png" width="100%" height="auto" alt="Logo">
+                    <p>  </p>
+                    <a href=https://tinyurl.com/56t2x4p6/ target="_blank"> 
+                    <button>Link</button></a>
+                </div>
+                
+                <div class="project"> 
+                    <p align="right">  11-maart-2025 </p>
+                    <h3>Waarom de ene persoon gevoeliger is voor PTSS dan de andere</h3>
+                    <p>Waarom krijgt de een na een schokkende gebeurtenis posttraumatische stress 
+                    en de ander niet? Luister hier het radio interview terug op EenVandaag 
+                    over ons onderzoek naar PTSS.</p>
+                    <br></br>
+                    <br></br>
+                    <img src="images/logo_eenvandaag.png" width="100%" height="auto" alt="Logo">
+                    <p>  </p>
+                    <a href=https://www.nporadio1.nl/fragmenten/eenvandaag/9e682e2f-5f30-4a5a-9e47-35f57af85f14/2025-03-11-waarom-de-ene-agent-gevoeliger-is-voor-ptss-dan-de-ander target="_blank"> 
+                    <button>Link</button></a>
+
+                </div>
+                
+                <div class="project"> 
+                    <p align="right">01-januari-2025</p>
+                    <h3>SSH Sectorplannen: Psychische aandoeningen</h3>
+                    <p>Het onderzoek dat wij doen is onderdeel van de SSH Sectorplannen. We
+                    doen onderzoek binnen Thema 2 "Psychische aandoeningen". Dit onderzoeksthema 
+                    richt zich op het verdiepen van wetenschappelijke kennis over de mechanismen die ten grondslag liggen 
+                    aan veranderingen in psychische gezondheid.</p>
+                    <img src="images/logo_sshsectorplan.png" width="100%" height="auto" alt="Logo">
+                    <p>  </p>
+                    <a href=https://sshraad.nl/voortgang-sectorplan-sociale-wetenschappen/psychische-aandoeningen/ target="_blank"> 
+                    <button>Link</button></a>
+
+                </div>
+
+
+            </div>
+        </section>
+        
+        
+        
+ <!-- Team information -->       
+        <section id="team">
+            <h2>Team</h2>
+
+            <div class="teams">
+              
+                <div class="team">
+                    <h3><b>Linda de Voogd</b></h3>
+                    <p>Linda de Voogd is Universitair Docent bij de afdeling Klinische Psychologie en werkt 
+                    op het gebied van affective neuroscience en translationele experimentele psychopathologie. 
+                    Haar onderzoek richt zich op het onderzoeken van (neurobiologische) mechanismes van angst, 
+                    stress en trauma exposure.</p>
+                    <div class="div_container_img"> 
+                        <img src="images/bio-linda.png" />
+                    </div>
+                </div>
+
+
+                <div class="team">
+                    <h3><b>Thomas Willems</b></h3>
+                    <p>Thomas Willems doet als promovendus bij het departement klinische psychologie onderzoek 
+                    naar de mechanismen en behandeling van posttraumatische stress stoornis (PTSS). Specifiek 
+                    is het doel van zijn PhD-project om de afstand tussen het experimentele onderzoeksveld en 
+                    de klinische praktijk te verkleinen.</p>
+                    <div class="div_container_img"> 
+                        <img src="images/bio-thomas.png"/>
+                    </div>
+                </div>
+                
+                <div class="team">
+                    <h3><b>Oscar Rabouw</b></h3>
+                    <p>Oscar Rabouw is GZ-psycholoog in opleiding tot Specialist bij het Leids Universitair 
+                    Behandel- en Expertisecentrum (LUBEC). Voor zijn opleiding werkt bij mee aan het onderzoek "Bringing 
+                    Clinical Knowledge to the Lab: a Qualitative Study on Exposure Therapy for PTSD".</p>
+                    <div class="div_container_img"> 
+                        <img src="images/bio-oscar.png"/>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+<!-- Contact information in the footer -->
+
+    </main>
+    <footer>
+        <p><b>Location</b></p>
+        <p>Faculteit der Sociale Wetenschappen
+        <br>Wassenaarseweg 52
+        <br>2333 AK Leiden</p>
+        <p><b>Contact</b></p>
+        <p>L.D.de.Voogd@fsw.leidenuniv.nl</p>
+        <p>&copy; 2025 L.D. de Voogd. All rights reserved.</p>
+    </footer>
 </body>
 </html>
